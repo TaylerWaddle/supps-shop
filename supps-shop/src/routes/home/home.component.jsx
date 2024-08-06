@@ -1,7 +1,11 @@
-import "./home.cstyles.scss";
+import "./home.styles.scss";
 
 const Home = () => {
-  return <div>home page</div>;
+  return (
+    <>
+      <div className="hero-container"></div>
+    </>
+  );
 };
 
 export default Home;
