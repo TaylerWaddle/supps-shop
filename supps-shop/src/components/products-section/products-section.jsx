@@ -1,9 +1,9 @@
 const ProductsSection = () => {
   return (
-    <>
-      <h1 className="static h-6 w-full text-black">testing</h1>
+    <div>
+      <h1 className="h-60 bg-zinc-950">testing</h1>
       <h1></h1>
-    </>
+    </div>
   );
 };
 
