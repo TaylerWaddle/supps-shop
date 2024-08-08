@@ -10,7 +10,7 @@ const HeroSection = () => {
         muted
         loop
       />
-      <div className="items-left w-fit-content z-10 mb-20 ml-12 mt-20 flex h-full flex-col justify-center">
+      <div className="items-left w-fit-content z-10 mb-20 ml-32 mt-20 flex h-full flex-col justify-center">
         <h1 className="text-14xl -mb-10 font-sans font-light text-white">
           PURE
         </h1>
@@ -19,10 +19,26 @@ const HeroSection = () => {
           POWER SUPPLEMENTS
         </span>
       </div>
-      <div className="static z-10 flex h-3/4 w-full items-center justify-center">
-        <button className="flex cursor-pointer rounded bg-gray-300 pb-1 pl-2 pr-2 pt-1 text-2xl font-semibold outline-none">
-          Sign Up
-        </button>
+      <div className="static z-10 flex w-full items-center justify-center">
+        <div className="flex h-fit w-fit items-center justify-center rounded-xl bg-zinc-900/60 p-20 text-white">
+          <div className="pr-6">
+            <h1 className="text-3xl">Sign Up and Get $5 </h1>
+            <h1 className="text-3xl">Off Your First Order</h1>
+          </div>
+
+          <form className="ml-5 flex flex-col items-center justify-center">
+            <input type="text" placeholder="First Name" className="my-2 w-60" />
+            <input type="text" placeholder="Last Name" className="my-2 w-60" />
+            <input type="text" placeholder="Email" className="my-2 w-60" />
+            {/* <input type="text" placeholder="Phone Number" className="m-2" /> */}
+            <button
+              type="submit"
+              className="mt-8 w-1/3 self-center bg-zinc-200 text-black"
+            >
+              Sign Up
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   );
