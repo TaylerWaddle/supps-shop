@@ -1,4 +1,4 @@
-import heroVidZoomed from "../../assets/hero-vid-zoomed.mp4";
+import heroVidZoomed from "../assets/hero-vid-zoomed.mp4";
 
 const HeroSection = () => {
   return (
@@ -10,7 +10,7 @@ const HeroSection = () => {
         muted
         loop
       />
-      <div className="items-left w-fit-content z-10 ml-12 flex h-full flex-col justify-center">
+      <div className="items-left w-fit-content z-10 mb-20 ml-12 mt-20 flex h-full flex-col justify-center">
         <h1 className="text-14xl -mb-10 font-sans font-light text-white">
           PURE
         </h1>
