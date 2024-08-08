@@ -4,8 +4,10 @@ import { Fragment } from "react";
 const Navigation = () => {
   return (
     <Fragment>
-      <div className="absolute z-50 flex h-20 w-full items-center justify-between bg-zinc-200">
-        <h1 className="ml-6 w-60 text-4xl font-normal text-black">PURE APEX</h1>
+      <div className="z-50 flex h-20 w-full items-center justify-between bg-zinc-200">
+        <div className="ml-6 w-60">
+          <h1 className="text-4xl font-normal text-black">PURE APEX</h1>
+        </div>
 
         <div className="flex items-center justify-between">
           <Link className="ml-6 mr-6 text-2xl font-normal">Pre-workout</Link>
@@ -13,8 +15,8 @@ const Navigation = () => {
           <Link className="ml-6 mr-6 text-2xl font-normal">Creatine</Link>
         </div>
 
-        <div className="flex w-60 justify-center">
-          <Link className="m-2.5">
+        <div className="-mr-8 flex w-60 justify-center">
+          <Link className="ml-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="24px"
@@ -25,7 +27,7 @@ const Navigation = () => {
               <path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z" />
             </svg>
           </Link>
-          <Link className="m-2.5">
+          <Link className="ml-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="24px"
