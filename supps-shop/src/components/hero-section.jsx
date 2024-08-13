@@ -11,11 +11,11 @@ const HeroSection = () => {
         loop
       />
       <div className="items-left w-fit-content z-10 mb-20 ml-32 mt-20 flex h-full flex-col justify-center">
-        <h1 className="text-14xl -mb-10 font-sans font-light text-white">
+        <h1 className="-mb-10 font-sans text-14xl font-light text-yellow-500/85">
           PURE
         </h1>
-        <h1 className="text-14xl -mt-10 font-thin text-white">APEX</h1>
-        <span className="-mt-10 mb-16 text-center text-5xl font-thin text-white">
+        <h1 className="-mt-10 text-14xl font-thin text-yellow-500/85">APEX</h1>
+        <span className="-mt-10 mb-16 text-center text-5xl font-thin text-yellow-500/85">
           POWER SUPPLEMENTS
         </span>
       </div>
