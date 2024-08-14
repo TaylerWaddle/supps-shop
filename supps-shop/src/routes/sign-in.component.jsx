@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const SignInForm = () => {
+const SignIn = () => {
   return (
     <>
       <div className="flex h-screen flex-col items-center justify-center bg-zinc-800 px-6 lg:px-8">
@@ -69,21 +69,20 @@ const SignInForm = () => {
             <div>
               <button
                 type="submit"
-                className="flex w-full justify-center rounded-md bg-yellow-500 px-3 py-1.5 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-yellow-500/85 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="text-md flex w-full justify-center rounded-md bg-yellow-500 px-3 py-1.5 font-semibold leading-6 text-black shadow-sm hover:bg-yellow-500/85 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Sign in
               </button>
             </div>
           </form>
-
           <p className="mt-10 text-center text-sm text-gray-200">
             Not a member?{" "}
-            <a
-              href="#"
+            <Link
+              to={"/sign-up"}
               className="font-semibold leading-6 text-yellow-500 hover:text-yellow-500/85"
             >
               Create an Account
-            </a>
+            </Link>
           </p>
         </div>
       </div>
@@ -91,4 +90,4 @@ const SignInForm = () => {
   );
 };
 
-export default SignInForm;
+export default SignIn;

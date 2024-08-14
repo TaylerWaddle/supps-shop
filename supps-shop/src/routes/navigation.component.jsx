@@ -14,18 +14,27 @@ const Navigation = () => {
           </Link>
         </div>
         <div className="flex justify-center">
-          <Link className="mx-6 text-xl font-normal text-white hover:text-yellow-500">
+          <Link
+            className="mx-6 text-xl font-normal text-white hover:text-yellow-500"
+            to={"shop"}
+          >
             Shop
           </Link>
-          <Link className="mx-6 text-xl font-normal text-white hover:text-yellow-500">
+          <Link
+            className="mx-6 text-xl font-normal text-white hover:text-yellow-500"
+            to={"cart"}
+          >
             Cart
           </Link>
-          <Link className="mx-6 text-xl font-normal text-white hover:text-yellow-500">
+          <Link
+            className="mx-6 text-xl font-normal text-white hover:text-yellow-500"
+            to={"profile"}
+          >
             Account
           </Link>
           <Link
             className="mx-6 text-xl font-normal text-white hover:text-yellow-500"
-            to={"auth"}
+            to={"sign-in"}
           >
             Sign-In
           </Link>
