@@ -2,7 +2,7 @@ import preSampleImg from "../assets/pre-sample.jpg";
 const ProductCard = () => {
   return (
     <>
-      <div className="h-fit w-fit rounded-lg bg-zinc-800 pb-5 shadow-sm hover:shadow-xl">
+      <div className="h-fit w-fit rounded-lg bg-zinc-800 pb-5 shadow-sm hover:shadow-2xl">
         <img src={preSampleImg} className="w-80 rounded-t-lg" />
         <div className="px-3 pt-2">
           <h1 className="text-3xl font-semibold text-white">AL Lions Blood</h1>
@@ -20,7 +20,7 @@ const ProductCard = () => {
           </div>
         </div>
       </div>
-      <div className="h-fit w-fit rounded-lg bg-zinc-800 pb-5 shadow-sm hover:shadow-xl">
+      <div className="h-fit w-fit rounded-lg bg-zinc-800 pb-5 shadow-sm hover:shadow-2xl">
         <img src={preSampleImg} className="w-80 rounded-t-lg" />
         <div className="px-3 pt-2">
           <h1 className="text-3xl font-semibold text-white">AL Lions Blood</h1>
@@ -38,7 +38,7 @@ const ProductCard = () => {
           </div>
         </div>
       </div>
-      <div className="h-fit w-fit rounded-lg bg-zinc-800 pb-5 shadow-sm hover:shadow-xl">
+      <div className="h-fit w-fit rounded-lg bg-zinc-800 pb-5 shadow-sm hover:shadow-2xl">
         <img src={preSampleImg} className="w-80 rounded-t-lg" />
         <div className="px-3 pt-2">
           <h1 className="text-3xl font-semibold text-white">AL Lions Blood</h1>
@@ -56,7 +56,7 @@ const ProductCard = () => {
           </div>
         </div>
       </div>
-      <div className="h-fit w-fit rounded-lg bg-zinc-800 pb-5 shadow-sm hover:shadow-xl">
+      <div className="h-fit w-fit rounded-lg bg-zinc-800 pb-5 shadow-sm hover:shadow-2xl">
         <img src={preSampleImg} className="w-80 rounded-t-lg" />
         <div className="px-3 pt-2">
           <h1 className="text-3xl font-semibold text-white">AL Lions Blood</h1>
@@ -74,7 +74,7 @@ const ProductCard = () => {
           </div>
         </div>
       </div>
-      <div className="h-fit w-fit rounded-lg bg-zinc-800 pb-5 shadow-sm hover:shadow-xl">
+      <div className="h-fit w-fit rounded-lg bg-zinc-800 pb-5 shadow-sm hover:shadow-2xl">
         <img src={preSampleImg} className="w-80 rounded-t-lg" />
         <div className="px-3 pt-2">
           <h1 className="text-3xl font-semibold text-white">AL Lions Blood</h1>
