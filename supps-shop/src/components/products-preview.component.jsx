@@ -9,7 +9,7 @@ const ProductsPreview = () => {
         </h1>
       </div>
       {/* Product Cards Container */}
-      <div className="flex justify-between px-32 py-16">
+      <div className="flex justify-between px-20 py-16">
         <ProductCard />
       </div>
     </div>
