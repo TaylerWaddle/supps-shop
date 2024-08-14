@@ -1,6 +1,6 @@
-import ProductCard from "./product-card";
+import ProductCard from "./product-card.component";
 
-const ProductSection = () => {
+const ProductsPreview = () => {
   return (
     <div className="h-fit w-full bg-zinc-200 text-white">
       {/* Product Cards Container */}
@@ -11,4 +11,4 @@ const ProductSection = () => {
   );
 };
 
-export default ProductSection;
+export default ProductsPreview;

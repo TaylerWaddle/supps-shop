@@ -1,6 +1,6 @@
-import HeroSection from "../components/hero-section";
-import ProductSection from "../components/products-section";
-import ContactSection from "../components/contact-section";
+import HeroSection from "../components/hero.component";
+import ProductsPreview from "../components/products-preview.component";
+import ContactUs from "../components/contact-us.component";
 import AboutUs from "../components/about-us.component";
 import Testimonials from "../components/testimonials.component";
 
@@ -8,10 +8,10 @@ const Home = () => {
   return (
     <div>
       <HeroSection />
-      <ProductSection />
+      <ProductsPreview />
       <AboutUs />
       <Testimonials />
-      <ContactSection />
+      <ContactUs />
     </div>
   );
 };

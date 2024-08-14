@@ -1,4 +1,4 @@
-const ContactSection = () => {
+const ContactUs = () => {
   return (
     <div className="flex h-fit w-full items-center justify-center bg-zinc-200 pb-32 pt-32">
       {/* Contact Us Header */}
@@ -32,4 +32,4 @@ const ContactSection = () => {
   );
 };
 
-export default ContactSection;
+export default ContactUs;
