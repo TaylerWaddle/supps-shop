@@ -3,7 +3,7 @@ import ProductCard from "./product-card.component";
 const ProductsPreview = () => {
   return (
     <div className="h-fit w-full bg-zinc-200">
-      <div className="flex items-center justify-center">
+      <div className="justify-left flex items-center px-20">
         <h1 className="pt-16 text-5xl font-semibold text-black">
           Popular Products
         </h1>

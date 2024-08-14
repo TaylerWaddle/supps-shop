@@ -17,7 +17,7 @@ const SignUp = () => {
         </div>
 
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form action="#" method="POST" className="space-y-6">
+          <form action="#" method="POST" className="space-y-3">
             <div>
               <label
                 htmlFor="firstname"
@@ -108,18 +108,19 @@ const SignUp = () => {
                 />
               </div>
             </div>
-            <div className="flex">
-              <input type="checkbox" />
-              <p className="pl-3 text-white">
-                I agree to the Terms and Conditions for Pure Apex Power
-                Supplements
-              </p>
-            </div>
-            <div className="flex">
-              <input type="checkbox" />
-              <p className="pl-3 text-white">
-                Sign Up for Our Monthly Newsletter
-              </p>
+            <div className="space-y-2">
+              <div className="flex">
+                <input type="checkbox" />
+                <p className="pl-3 text-white">
+                  I agree to the Terms and Conditions.
+                </p>
+              </div>
+              <div className="flex">
+                <input type="checkbox" />
+                <p className="pl-3 text-white">
+                  Sign Up for Our Monthly Newsletter.
+                </p>
+              </div>
             </div>
 
             <div>

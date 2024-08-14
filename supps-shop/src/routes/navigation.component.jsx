@@ -28,12 +28,6 @@ const Navigation = () => {
           </Link>
           <Link
             className="mx-6 text-xl font-normal text-white hover:text-yellow-500"
-            to={"profile"}
-          >
-            Account
-          </Link>
-          <Link
-            className="mx-6 text-xl font-normal text-white hover:text-yellow-500"
             to={"sign-in"}
           >
             Sign-In
