@@ -115,6 +115,12 @@ const SignUp = () => {
                 Supplements
               </p>
             </div>
+            <div className="flex">
+              <input type="checkbox" />
+              <p className="pl-3 text-white">
+                Sign Up for Our Monthly Newsletter
+              </p>
+            </div>
 
             <div>
               <button
