@@ -18,9 +18,9 @@ export default {
       "12xl": "12rem",
       "14xl": "14rem",
     },
-    // fontFamily: {
-    //   sans: "Zain",
-    // },
+    fontFamily: {
+      zain: ["Zain"],
+    },
     extend: {},
   },
   plugins: [],

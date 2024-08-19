@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <div className="relative flex w-full items-center justify-between">
+    <div className="font-zain relative flex w-full items-center justify-between">
       <video
         className="absolute h-full w-full bg-cover bg-center object-cover"
         src={heroVidZoomed}
@@ -12,11 +12,9 @@ const HeroSection = () => {
         loop
       />
       <div className="items-left w-fit-content z-10 mb-20 ml-32 mt-20 flex h-full flex-col justify-center">
-        <h1 className="-mb-10 font-sans text-14xl font-light text-yellow-500/85">
-          PURE
-        </h1>
-        <h1 className="-mt-10 text-14xl font-thin text-yellow-500/85">APEX</h1>
-        <span className="-mt-10 mb-16 text-center text-5xl font-thin text-yellow-500/85">
+        <h1 className="-mb-10 text-14xl font-light text-yellow-500/85">PURE</h1>
+        <h1 className="-mt-10 text-14xl font-light text-yellow-500/85">APEX</h1>
+        <span className="-mt-10 mb-16 text-center text-5xl font-light text-yellow-500/85">
           POWER SUPPLEMENTS
         </span>
       </div>
@@ -29,7 +27,7 @@ const HeroSection = () => {
           <div className="ml-5 flex w-48 flex-col items-center justify-center">
             <Link
               to={"sign-up"}
-              className="text-md mt-1.5 flex w-full justify-center rounded-md bg-yellow-500 px-3 py-1.5 font-semibold leading-6 text-black shadow-sm hover:bg-yellow-500/85 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+              className="mt-1.5 flex w-24 justify-center rounded-md bg-yellow-500 px-3 pb-1.5 pt-2 text-2xl font-medium leading-6 text-black shadow-sm hover:bg-yellow-500/85 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
             >
               Sign Up
             </Link>
