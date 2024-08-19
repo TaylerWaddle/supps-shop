@@ -11,7 +11,7 @@ const AboutUs = () => {
         <div className="mb-32 flex w-full items-center justify-start">
           <img src={TabianPhoto} className="mx-20 h-full w-1/3 rounded-full" />
           <div className="mr-36 max-w-3xl rounded-2xl bg-zinc-900 p-12">
-            <h1 className="text-6xl font-medium text-yellow-500">
+            <h1 className="text-6xl font-medium text-yellow-500/90">
               Tabian Waddle
             </h1>
             <div className="flex items-center space-x-4 pb-3">
@@ -54,7 +54,7 @@ const AboutUs = () => {
         </div>
         <div className="mb-32 flex w-full items-center justify-end">
           <div className="ml-36 max-w-3xl rounded-2xl bg-zinc-900 p-12">
-            <h1 className="text-6xl font-medium text-yellow-500">
+            <h1 className="text-6xl font-medium text-yellow-500/90">
               Scott Melvin
             </h1>
             <div className="flex items-center space-x-4 pb-3">

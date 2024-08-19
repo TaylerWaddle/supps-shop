@@ -68,7 +68,7 @@ const SignIn = () => {
           <div>
             <button
               type="submit"
-              className="flex w-full justify-center rounded-md bg-yellow-500 px-3 pb-1.5 pt-2 text-2xl font-medium leading-6 text-black shadow-sm hover:bg-yellow-500/85 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="flex w-full justify-center rounded-md bg-yellow-500/95 px-3 pb-1.5 pt-2 text-2xl font-medium leading-6 text-black shadow-sm hover:bg-yellow-500/85 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Sign in
             </button>

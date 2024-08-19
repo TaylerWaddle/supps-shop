@@ -2,7 +2,7 @@ const ContactUs = () => {
   return (
     <div className="font-zain flex h-fit w-full items-center justify-center bg-zinc-800 py-32">
       <div className="flex h-fit w-fit flex-col items-center justify-evenly rounded-3xl bg-zinc-900">
-        <span className="py-16 text-5xl font-medium text-yellow-500 sm:px-24 md:px-48">
+        <span className="py-16 text-5xl font-medium text-yellow-500/95 sm:px-24 md:px-48">
           Contact Us
         </span>
         <form className="flex h-fit w-1/4 flex-col items-center justify-center rounded-r-3xl bg-zinc-900 pb-16">
@@ -29,7 +29,7 @@ const ContactUs = () => {
           <div className="flex w-80 justify-center">
             <button
               type="submit"
-              className="mt-1.5 w-full rounded-md bg-yellow-500 px-3 py-1.5 text-xl font-semibold leading-6 text-black shadow-sm hover:bg-yellow-500/85 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+              className="mt-1.5 w-full rounded-md bg-yellow-500/95 px-3 pb-1.5 pt-2 text-xl font-semibold leading-6 text-black shadow-sm hover:bg-yellow-500/85 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
             >
               Submit Request
             </button>
