@@ -14,10 +14,10 @@ const TestimonialCard = () => {
         <Star />
       </div>
       <p className="text-md font-light text-white">
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat totam
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat totam
         quasi voluptatibus dolorum aperiam facilis vero, in incidunt odio nulla
         non eius! Quam sapiente maxime, molestias voluptatibus dicta ducimus
-        fugit?"
+        fugit?
       </p>
     </div>
   );
