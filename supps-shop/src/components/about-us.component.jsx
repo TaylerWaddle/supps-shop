@@ -4,8 +4,8 @@ import TabianPhoto from "../assets/Tabian-About.jpg";
 const AboutUs = () => {
   return (
     <>
-      <div className="font-zain h-fit w-full bg-zinc-800 p-20">
-        <h1 className="justify-left mb-16 flex items-center text-6xl font-medium text-white">
+      <div className="h-fit w-full bg-zinc-900/95 p-20 font-zain">
+        <h1 className="mb-16 flex items-center justify-center text-7xl font-medium text-white">
           Our Founders
         </h1>
         <div className="mb-32 flex w-full items-center justify-start">
@@ -25,7 +25,7 @@ const AboutUs = () => {
                 <path d="M480.28-96Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30Zm-.28-72q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Zm0-312Z" />
               </svg>
               <span className="pt-1 text-2xl font-semibold text-white">
-                Bodybuilder
+                Anytime Fitness Manager
               </span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ const AboutUs = () => {
                 <path d="M480.28-96Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30Zm-.28-72q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Zm0-312Z" />
               </svg>
               <span className="pt-1 text-2xl font-semibold text-white">
-                Anytime Fitness Manager
+                Bodybuilder
               </span>
             </div>
             <span className="text-2xl font-light text-white">
@@ -68,7 +68,7 @@ const AboutUs = () => {
                 <path d="M480.28-96Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30Zm-.28-72q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Zm0-312Z" />
               </svg>
               <span className="pt-1 text-2xl font-semibold text-white">
-                Bodybuilder
+                AF Fitness Director
               </span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ const AboutUs = () => {
                 <path d="M480.28-96Q401-96 331-126t-122.5-82.5Q156-261 126-330.96t-30-149.5Q96-560 126-629.5q30-69.5 82.5-122T330.96-834q69.96-30 149.5-30t149.04 30q69.5 30 122 82.5T834-629.28q30 69.73 30 149Q864-401 834-331t-82.5 122.5Q699-156 629.28-126q-69.73 30-149 30Zm-.28-72q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Zm0-312Z" />
               </svg>
               <span className="pt-1 text-2xl font-semibold text-white">
-                Anytime Fitness Manager
+                Bodybuilder
               </span>
             </div>
             <span className="text-2xl font-light text-white">

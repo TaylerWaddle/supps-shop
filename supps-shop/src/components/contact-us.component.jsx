@@ -1,6 +1,6 @@
 const ContactUs = () => {
   return (
-    <div className="font-zain flex h-fit w-full items-center justify-center bg-zinc-800 py-32">
+    <div className="flex h-fit w-full items-center justify-center bg-zinc-900/95 py-32 font-zain">
       <div className="flex h-fit w-fit flex-col items-center justify-evenly rounded-3xl bg-zinc-900">
         <span className="py-16 text-5xl font-medium text-yellow-500/95 sm:px-24 md:px-48">
           Contact Us

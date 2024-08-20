@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <div className="font-zain relative flex w-full items-center justify-between">
+    <div className="relative flex w-full items-center justify-between font-zain">
       <video
         className="absolute h-full w-full bg-cover bg-center object-cover"
         src={heroVidZoomed}
@@ -19,9 +19,9 @@ const HeroSection = () => {
         </span>
       </div>
       <div className="static z-10 flex w-full items-center justify-center">
-        <div className="flex h-fit w-fit flex-col items-center justify-center rounded-xl bg-zinc-800/75 px-10 py-16 text-white">
+        <div className="flex h-fit w-fit flex-col items-center justify-center rounded-xl bg-zinc-900/90 px-10 py-16 text-white">
           <div className="p-6">
-            <h1 className="text-3xl">Sign Up For Our Monthly Newsletter</h1>
+            <h1 className="text-4xl">Sign Up For Our Monthly Newsletter</h1>
           </div>
 
           <div className="ml-5 flex w-48 flex-col items-center justify-center">
