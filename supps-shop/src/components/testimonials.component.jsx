@@ -1,14 +1,13 @@
 import TestimonialCard from "./testimonial-card.component";
+import SectionHeader from "./section-header";
+
+const headerText = "Testimonials";
 
 const Testimonials = () => {
   return (
-    <div className="flex h-fit w-full flex-col items-center bg-zinc-900 py-20">
-      <h1 className="justify-left flex items-center px-20 font-zain text-7xl font-medium text-white">
-        Testimonials
-      </h1>
-      <div className="flex w-2/3 px-20 py-16">
-        <TestimonialCard />
-        <TestimonialCard />
+    <div className="relative flex h-fit w-full flex-col items-center bg-zinc-950 px-8 font-zain md:py-20 lg:px-20">
+      <SectionHeader headerText={headerText} />
+      <div className="flex w-fit flex-col items-center justify-center space-y-6 py-16 md:flex-row md:space-y-0 lg:space-x-12">
         <TestimonialCard />
       </div>
     </div>

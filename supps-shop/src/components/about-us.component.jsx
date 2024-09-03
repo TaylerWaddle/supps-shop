@@ -4,12 +4,17 @@ import TabianPhoto from "../assets/Tabian-About.jpg";
 const AboutUs = () => {
   return (
     <>
-      <div className="h-fit w-full bg-zinc-900/95 p-20 font-zain">
-        <h1 className="mb-16 flex items-center justify-center text-7xl font-medium text-white">
-          Our Founders
-        </h1>
-        <div className="mb-32 flex w-full items-center justify-start">
-          <img src={TabianPhoto} className="mx-20 h-full w-1/3 rounded-full" />
+      <div className="relative h-fit w-full bg-zinc-900 py-20 font-zain lg:px-20">
+        <div className="flex w-full items-center justify-center space-x-12 md:mb-20">
+          <div className="h-[2px] w-[24rem] rounded-full bg-yellow-500" />
+          <h1 className="text-4xl font-medium text-white lg:text-7xl">
+            Our Founders
+          </h1>
+          <div className="h-[2px] w-[24rem] rounded-full bg-yellow-500" />
+        </div>
+
+        <div className="relative mb-32 w-full items-center justify-center lg:flex">
+          <img src={TabianPhoto} className="ml-20 h-full w-[480px]" />
           <div className="mr-36 max-w-3xl rounded-2xl bg-zinc-900 p-12">
             <h1 className="text-6xl font-medium text-yellow-500/90">
               Tabian Waddle
@@ -40,19 +45,27 @@ const AboutUs = () => {
                 Bodybuilder
               </span>
             </div>
-            <span className="text-2xl font-light text-white">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Excepturi minus animi perspiciatis deserunt dolorum, rem cum
-              eligendi vel voluptatem est aliquam enim dicta architecto. Ea quod
-              possimus ex minima ullam! Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Provident earum eos atque laborum deleniti
-              repellendus, quod nobis. Exercitationem maxime, non laboriosam
-              eveniet quisquam dicta dignissimos velit tenetur, molestias nisi
-              perferendis.
+            <p className="mb-6 text-2xl font-light text-white">
+              As an amateur competitive bodybuilder and long-time gym rat, Ive
+              always understood the value of quality supplements when achieving
+              peak performance. Over the years, Ive tried and tested countless
+              products to fuel my workouts and push my limits.
+            </p>
+            <p className="mb-6 text-2xl font-light text-white">
+              My goal is this: to offer high-quality supplements at the best
+              prices, ensuring everyone has access to the tools they need to
+              win.
+            </p>
+            <p className="mb-6 text-2xl font-light text-white">
+              Whether youre a seasoned athlete or just starting your fitness
+              journey, Im here to help you find the right products.
+            </p>
+            <span className="text-2xl font-light text-yellow-500/90">
+              Connect with me: [LinkedIn Profile] | [Email Address]
             </span>
           </div>
         </div>
-        <div className="mb-32 flex w-full items-center justify-end">
+        <div className="relative mb-32 flex w-full items-center justify-center">
           <div className="ml-36 max-w-3xl rounded-2xl bg-zinc-900 p-12">
             <h1 className="text-6xl font-medium text-yellow-500/90">
               Scott Melvin
@@ -99,10 +112,10 @@ const AboutUs = () => {
               journey, Im here to help you find the right products.
             </p>
             <span className="text-2xl font-light text-yellow-500/90">
-              Connect with me: [LinkedIn Profile] | [Email Address]
+              Connect with me: [LinkedIn Profile] | [melvinator76@gmail.com]
             </span>
           </div>
-          <img src={ScottPhoto} className="mx-20 h-full w-1/3 rounded-full" />
+          <img src={ScottPhoto} className="mx-20 h-full w-[480px]" />
         </div>
       </div>
     </>

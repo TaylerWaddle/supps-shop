@@ -6,13 +6,13 @@ import Testimonials from "../components/testimonials.component";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <HeroSection />
       <ProductsPreview />
-      <AboutUs />
+      {/* <AboutUs /> */}
       <Testimonials />
-      <ContactUs />
-    </div>
+      {/* <ContactUs /> */}
+    </>
   );
 };
 

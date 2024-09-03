@@ -1,6 +1,6 @@
 const ContactUs = () => {
   return (
-    <div className="flex h-fit w-full items-center justify-center bg-zinc-900/95 py-32 font-zain">
+    <div className="relative flex h-fit w-full items-center justify-center bg-zinc-900/95 py-32 font-zain lg:px-20">
       <div className="flex h-fit w-fit flex-col items-center justify-evenly rounded-3xl bg-zinc-900">
         <span className="py-16 text-5xl font-medium text-yellow-500/95 sm:px-24 md:px-48">
           Contact Us
@@ -9,22 +9,22 @@ const ContactUs = () => {
           <input
             type="text"
             placeholder="First Name"
-            className="mb-3 block w-80 rounded rounded-md border-0 pb-1 pl-2 pt-1.5 text-xl text-gray-950 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2"
+            className="mb-3 block w-80 rounded border-0 pb-1 pl-2 pt-1.5 text-xl text-gray-950 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2"
           ></input>
           <input
             type="text"
             placeholder="Last Name"
-            className="mb-3 block w-80 rounded rounded-md border-0 pb-1 pl-2 pt-1.5 text-xl text-gray-950 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2"
+            className="mb-3 block w-80 rounded border-0 pb-1 pl-2 pt-1.5 text-xl text-gray-950 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2"
           ></input>
           <input
             type="email"
             placeholder="Email"
-            className="mb-3 block w-80 rounded rounded-md border-0 pb-1 pl-2 pt-1.5 text-xl text-gray-950 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2"
+            className="mb-3 block w-80 rounded border-0 pb-1 pl-2 pt-1.5 text-xl text-gray-950 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2"
           ></input>
           <textarea
             type="textfield"
             placeholder="Questions or Concerns"
-            className="mb-3 block min-h-32 w-80 rounded rounded-md border-0 py-1.5 pl-2 text-xl text-gray-950 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2"
+            className="mb-3 block min-h-32 w-80 rounded border-0 py-1.5 pl-2 text-xl text-gray-950 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2"
           ></textarea>
           <div className="flex w-80 justify-center">
             <button
