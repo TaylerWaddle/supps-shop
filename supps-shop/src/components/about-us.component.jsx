@@ -84,9 +84,9 @@ const AboutUs = () => {
               </span>
             </div>
             <p className="mb-6 text-2xl font-light text-white">
-              As an amateur competitive bodybuilder and long-time gym rat, I've
+              As an amateur competitive bodybuilder and long-time gym rat, Ive
               always understood the value of quality supplements when achieving
-              peak performance. Over the years, I've tried and tested countless
+              peak performance. Over the years, Ive tried and tested countless
               products to fuel my workouts and push my limits.
             </p>
             <p className="mb-6 text-2xl font-light text-white">
@@ -95,10 +95,10 @@ const AboutUs = () => {
               win.
             </p>
             <p className="mb-6 text-2xl font-light text-white">
-              Whether you’re a seasoned athlete or just starting your fitness
-              journey, I’m here to help you find the right products.
+              Whether youre a seasoned athlete or just starting your fitness
+              journey, Im here to help you find the right products.
             </p>
-            <span className="text-2xl font-light text-white">
+            <span className="text-2xl font-light text-yellow-500/90">
               Connect with me: [LinkedIn Profile] | [Email Address]
             </span>
           </div>
