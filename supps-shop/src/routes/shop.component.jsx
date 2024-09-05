@@ -1,14 +1,12 @@
-import SearchBar from "../components/search-bar.component";
 import ProductCard from "../components/product-card.component";
 
 const Shop = () => {
   return (
-    <div className="h-full w-full bg-zinc-950">
-      <SearchBar />
-      <div className="mx-3 grid grid-cols-2 justify-center overflow-hidden py-16 md:mx-10 lg:flex lg:flex-wrap">
+    <>
+      <div className="flex w-full flex-wrap items-center justify-center bg-zinc-950 px-1 py-32 md:px-8 xl:px-12">
         <ProductCard />
       </div>
-    </div>
+    </>
   );
 };
 

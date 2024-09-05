@@ -20,6 +20,7 @@ export default {
     },
     fontFamily: {
       zain: ["Zain"],
+      mont: ["Montserrat"],
     },
     extend: {},
   },
